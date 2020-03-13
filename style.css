@@ -1,0 +1,749 @@
+*{
+	text-decoration: none;
+}
+
+.info {
+	font-family: Catamaran;
+	margin:-8px;
+	font-size: 14px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
+	display: block;
+	overflow: hidden;
+	padding-left:10px;
+	
+}
+	
+.mob {
+	display: none;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 70px;
+
+
+}
+
+header .header-brand {
+	font-family: Catamaran;
+	font-size: 26px;
+	color: #1ED1C8;
+	font-weight: 800;
+	text-transform: uppercase;
+	display: block;
+	margin:0 auto;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.navbar{
+	display: none;
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+	
+	.info {
+	font-family: Catamaran;
+	margin-left:-8px;
+	font-size: 17px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
+	display: block;
+	padding-left:10px; 
+}
+	
+	.mob {
+	float:right;
+	font-family: Catamaran;
+	margin-top:-20px;
+	font-size: 16px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
+	display: block;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+
+
+}
+	
+	header .header-brand {
+	margin:31px 0 ;
+	text-align: left;
+	padding: 0px 20px 0 40px;
+	border-right: 3px solid #111;
+	float: left;
+	line-height:20px;
+}
+
+header nav ul{
+	float: left;
+	margin: 20px 0px 0px 20px;
+	
+}
+
+
+header nav ul a{
+	line-height: 60px;
+}
+header .header-cases {
+	display:block;
+	font-family: Catamaran;
+	font-size:16px;
+	color: #111;
+	text-transform: uppercase;
+	line-height: 38px;
+	border: 1px solid #111;
+	float: right;
+	margin-right: 40px;
+	padding: 0 20px;
+	line-height: 40px;
+	margin-top: 30px;
+}
+.navbar{
+	display: block;
+}
+
+.navbar {
+text-transform: uppercase;
+padding-top:5px;
+padding-left:20px;
+  font-family: Catamaran;
+  overflow: hidden;
+  background-color: white;
+  margin-top:10px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color: white;
+  text-transform: none;
+  
+}
+
+
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: #111;
+  padding: 14px 16px;
+  background-color: white;
+  font-family: Catamaran;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: #ddd;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+}
+
+/*INDEX*/
+
+
+.prekid{
+	line-height:1px;
+	font-size:1;
+	color: white;
+
+}
+
+div.clear {
+clear: left;
+}
+
+#slider{
+ display: none;
+}
+
+#slajd{
+overflow: hidden;
+}
+
+#slajd figure{
+	position:relative;
+	width: 500%;
+	margin:0;
+	margin-top:-10px;
+	left:0;
+	animation: 20s slajd infinite;
+	
+}
+#slajd figure img{
+	width:20%;
+	float:left;
+}
+
+@keyframes slajd {
+	0% {
+		left:0;
+	}
+	20% {
+		left:0;
+	}
+	25% {
+		left:-100%;
+	}
+	45% {
+		left:-100%;
+	}
+	50% {
+		left:-200%;
+	}
+	70% {
+		left:-200%;
+	}
+	75% {
+		left:-300%;
+	}
+	95% {
+		left:-300%;
+	}
+	100% {
+		left:-400%;
+	}
+	
+}
+
+
+.index-banner {
+	width: cover;
+	height:100vh;
+	background-image: url("img/proba.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: table;
+	
+}
+
+.vertical-center{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.index-banner h2{
+	font-family: Catamaran;
+	font-size: 60px;
+	color: #fff;
+	line-height: 70px;
+	text-align: center;
+	font-weight: 900;
+	text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1{
+	font-family: Cormorant Gramond;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	font-weight: 100;
+	text-shadow: 2px 2px 8px #111;
+	font-style: italic;
+	line-height: 40px;
+}
+
+.index-links div {
+	margin: 16px 16px 0px;
+	width: calc(100%-32px);
+	height: 100px;
+	background-color: #f2f2f2;
+}
+
+.index-links div h3{
+	font-family: Catamaran;
+	font-size: 28px;
+	color: black;
+	text-align: center;
+	font-weight:600;
+	line-height: 40px;
+	text-transform: uppercase;
+	line-height:100px
+	
+}
+
+@media only screen and (min-width: 1000px) {
+	
+#slajd{
+ display: none;
+}	
+	
+#slider{
+overflow: hidden;
+display: block;
+}
+
+#slider figure{
+	position:relative;
+	width: 500%;
+	margin:0;
+	margin-top:-10px;
+	left:0;
+	animation: 20s slider infinite;
+	
+}
+#slider figure img{
+	width:20%;
+	float:left;
+}
+
+@keyframes slider {
+	0% {
+		left:0;
+	}
+	20% {
+		left:0;
+	}
+	25% {
+		left:-100%;
+	}
+	45% {
+		left:-100%;
+	}
+	50% {
+		left:-200%;
+	}
+	70% {
+		left:-200%;
+	}
+	75% {
+		left:-300%;
+	}
+	95% {
+		left:-300%;
+	}
+	100% {
+		left:-400%;
+	}
+	
+}
+	.wrapper{
+		width: 1200px;
+		margin: 0 auto;
+	}	
+	
+	.kockica{
+	float: left;
+	overflow: hidden;
+	font-size: 14px;
+	font-family: Catamaran;
+	height: 460px;
+	width: 210px;
+	line-height:5px;
+	margin: 20px 20px 0px 10px;
+	
+}
+	
+	.index-banner {
+		width: 100%;
+		height:450 px;
+	}	
+
+	.index-links div {
+		margin: 10px 5px 0px;
+		height: 230px;
+		background-color: #f2f2f2;
+		text-shadow: 2px 2px 8px #111;
+		float: left;
+	}
+	.index-links {
+		padding-top:10px;
+		padding-bottom: 10x;
+		overflow:hidden;
+	}
+	
+	.index-links div h3{
+	color: #fff;
+	line-height:150px;
+	}
+	
+	.index-boxlink-akcija {
+		width: 1150px;
+		background-image: url("img/akcija.jpg");
+		background-position: center;
+		background-size: 100%;
+	}
+	.index-boxlink-square1 {
+		width: 320px;
+		background-image: url("img/susenje.jpg");
+		background-size: 100%;
+	}
+	
+	.index-boxlink-square2 {
+		width: 320px;
+		background-image: url("img/Frizider.jpeg");
+		background-size: 100%;
+	}
+	.index-boxlink-square3 {
+		width: 320px;
+		background-image: url("img/aspirator.png");
+		background-size: 100%;
+	}
+	.index-boxlink-square4 {
+		width: 320px;
+		background-image: url("img/sudo.jpg");
+		background-size: 100%;
+	}
+	
+	.index-boxlink-rectangle1 {
+		width: 490px;
+		background-image: url("img/friz.jpg");
+		background-size: 100%;
+	}
+	
+	.index-boxlink-rectangle2 {
+		width: 570px;
+		background-image: url("img/ves.jpg");
+		background-size: 100%;
+	}
+	.index-boxlink-rectangle3 {
+		width: 570px;
+		background-image: url("img/sporet.jpg");
+		background-size: 100%;
+	}
+	
+	.index-boxlink-rectangle4 {
+		width: 490px;
+		background-image: url("img/tv.jpg");
+		background-size: 100%;
+	}
+	.index-boxlink-rectangle5 {
+		width: 570px;
+		background-image: url("img/ugradna.jpg");
+		background-size: 100%;
+	}
+	.index-boxlink-rectangle6 {
+		width: 570px;
+		background-image: url("img/kombinovani.jpg");
+		background-size: 100%;
+	}
+}
+
+footer{
+	width: calc(100% - 80px);
+	padding: 40px 40px;
+	background-color: #111;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+footer ul {
+	width: fit-content;
+	float: left;
+	padding-left: 20px;
+}
+footer ul li{
+	display: block;
+	list-style: none;
+
+}
+footer ul li a{
+	font-family: Catamaran;
+	font-size: 24px;
+	color: #fff;
+	line-height: 40px;
+}
+.footer-links-cases{
+	display: none;
+}
+
+.footer-sm {
+	padding-top:50px;
+	width: 60px;
+	float:right;
+}
+
+.footer-sm img{
+	width: 50px;
+	margin-bottom: 10px;
+}
+@media only screen and (min-width: 1000px) {
+footer{
+	width: 1115px;
+	padding: 20px 20px;
+}
+footer ul li a{
+	line-height: 30px;
+}	
+}
+
+/* akcija */
+.naslov {
+	font-family: Catamaran;
+	font-size: 14px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
+	text-transform: uppercase;
+	display: block;
+	margin:10px;
+	padding-left:10px;
+	width: 180px;
+}
+
+.naslov1 {
+	font-family: Catamaran;
+	font-size: 14px;
+	color: white;
+	line-height:22px;
+	background-color: #1ED1C8;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	width: 360px;
+	margin-top:-15px;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+
+.kocka{
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	font-family: Catamaran;
+	height: auto;
+	width: 50%;
+	line-height:5px;
+	margin:auto;
+	border-bottom: 1px solid lightgray;
+	margin-bottom:30px;
+	
+}
+
+.kocka1{
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	font-family: Catamaran;
+	height: auto;
+	line-height:5px;
+	padding-right:10px;
+	width:370px;
+	margin:auto;
+	
+}
+
+
+.slika {
+	height: 200px;
+	width: 250px;
+	margin:0 0 0 -30px;
+	
+}
+.slika1 {
+	width: 50%;
+	margin:auto;
+	
+}
+
+
+.slika img {
+	position:left;
+	height:200px;
+	background-image: cover;
+	margin-bottom: 20px;
+}
+
+.slika1 img {
+	
+	height:230px;
+	background-image: cover;
+	margin-bottom: 20px;
+}
+
+
+
+.tekst p{
+	height: 250px;
+	width: 140px;
+	
+}
+.tekst1 p{
+	padding-top:20px;
+	height: 250px;
+	width: 140px;
+}
+.ime{
+	font-size: 120%;
+	font-weight: bold;
+}
+.model{
+	font-size: 110%;
+}
+
+.cena{
+	color: #1ED1C8;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.brend {
+	font-weight: bold;
+	font-size: 130%;
+}
+
+.kapacitet {
+	font-size: 100%;
+}
+.obrtaji{
+	font-size: 110%;
+}
+.razred{
+	font-size: 110%;
+}
+.dubina{
+	font-size: 100%;
+}
+.boja{
+	font-size: 110%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+.naslov1 {
+	
+	font-size: 20px;
+	color: white;
+	line-height:25px;
+	background-color: #1ED1C8;
+	font-weight: 600;
+	margin-top:-15px;
+	margin-bottom:10px;
+}
+
+.kocka{
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: Catamaran;
+	height: auto;
+	width: 260px;
+	line-height:5px;
+	margin: 20px 20px 20px 10px;
+	border-bottom: 1px solid lightgray;
+	
+}
+
+.kocka1{
+	float: left;
+	font-size: 12px;
+	font-family: Catamaran;
+	width:375px;
+	border-bottom: none;
+	padding-bottom:20px;
+	
+}
+
+.slika {
+	height: 270px;
+	width: 250px;
+	margin:0 0 0 -30px;
+	
+}
+.slika img {
+	height:260px;
+	background-image: cover;
+	margin-bottom: 20px;
+}
+
+
+.tekst p{
+	height: 250px;
+	width: 140px;
+	
+}
+
+	
+
+
+.ime{
+	font-size: 100%;
+	font-weight: bold;
+}
+.model{
+	font-size: 130%;
+}
+
+.cena{
+	color: #1ED1C8;
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.brend {
+	font-weight: bold;
+	font-size: 130%;
+}
+
+.kapacitet {
+	font-size: 130%;
+}
+.obrtaji{
+	font-size: 130%;
+}
+.razred{
+	font-size: 130%;
+}
+.dubina{
+	font-size: 130%;
+}
+.boja{
+	font-size: 120%;
+}
+
+
+}
