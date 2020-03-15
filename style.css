@@ -29,7 +29,6 @@
 }
 
 	.mob {
-	
 	display: none;
 }
 	
@@ -701,12 +700,12 @@ footer ul li a{
 	font-size: 110%;
 }
 
-.prijava{
+.kontakt{
 	margin-top:100px;
 	margin-bottom:200px;
 	font-family: Catamaran;
 	font-size: 26px;
-	color: #1ED1C8;
+	color: black;
 	font-weight: 1000;
 	text-transform: uppercase;
 	display: block;
