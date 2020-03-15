@@ -701,6 +701,19 @@ footer ul li a{
 	font-size: 110%;
 }
 
+.prijava{
+	margin-top:100px;
+	margin-bottom:200px;
+	font-family: Catamaran;
+	font-size: 26px;
+	color: #1ED1C8;
+	font-weight: 1000;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+}
+
 
 @media only screen and (min-width: 1000px) {
 
