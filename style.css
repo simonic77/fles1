@@ -9,26 +9,42 @@
 	color: white;
 	background-color: #1ED1C8;
 	font-weight: 500;
+	display: none;
+	overflow: hidden;
+	padding-left:10px;
+	
+}
+
+.info1 {
+	font-family: Catamaran;
+	margin:-8px;
+	font-size: 14px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
 	display: block;
 	overflow: hidden;
+	padding-left:10px;
 	
 }
-	
-.mob {
+
+	.mob {
 	display: none;
 }
+	
+
 
 header{
 	background-color: #fff;
 	width: 100%;
-	height: 100px;
+	height: 75px;
 
 
 }
 
 header .header-brand {
 	font-family: Catamaran;
-	font-size: 24px;
+	font-size: 26px;
 	color: #1ED1C8;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -51,23 +67,36 @@ header .header-brand {
 	.info {
 	font-family: Catamaran;
 	margin-left:-8px;
-	font-size: 14px;
+	font-size: 17px;
 	color: white;
 	background-color: #1ED1C8;
 	font-weight: 500;
 	display: block;
 	padding-left:10px; 
 }
+
+.info1 {
+	display: none;
+	 
+}
 	
 	.mob {
 	float:right;
 	font-family: Catamaran;
-	margin-top:-15px;
-	font-size: 14px;
+	margin-top:-20px;
+	font-size: 16px;
 	color: white;
 	background-color: #1ED1C8;
 	font-weight: 500;
 	display: block;
+}
+
+header{
+	background-color: #fff;
+	width: 100%;
+	height: 100px;
+
+
 }
 	
 	header .header-brand {
@@ -196,23 +225,28 @@ clear: left;
 }
 
 #slider{
-	overflow: hidden;
+ display: none;
 }
-#slider figure{
+
+#slajd{
+overflow: hidden;
+}
+
+#slajd figure{
 	position:relative;
 	width: 500%;
 	margin:0;
 	margin-top:-10px;
 	left:0;
-	animation: 20s slider infinite;
+	animation: 20s slajd infinite;
 	
 }
-#slider figure img{
+#slajd figure img{
 	width:20%;
 	float:left;
 }
 
-@keyframes slider {
+@keyframes slajd {
 	0% {
 		left:0;
 	}
@@ -301,6 +335,60 @@ clear: left;
 }
 
 @media only screen and (min-width: 1000px) {
+	
+#slajd{
+ display: none;
+}	
+	
+#slider{
+overflow: hidden;
+display: block;
+}
+
+#slider figure{
+	position:relative;
+	width: 500%;
+	margin:0;
+	margin-top:-10px;
+	left:0;
+	animation: 20s slider infinite;
+	
+}
+#slider figure img{
+	width:20%;
+	float:left;
+}
+
+@keyframes slider {
+	0% {
+		left:0;
+	}
+	20% {
+		left:0;
+	}
+	25% {
+		left:-100%;
+	}
+	45% {
+		left:-100%;
+	}
+	50% {
+		left:-200%;
+	}
+	70% {
+		left:-200%;
+	}
+	75% {
+		left:-300%;
+	}
+	95% {
+		left:-300%;
+	}
+	100% {
+		left:-400%;
+	}
+	
+}
 	.wrapper{
 		width: 1200px;
 		margin: 0 auto;
@@ -349,13 +437,13 @@ clear: left;
 	}
 	.index-boxlink-square1 {
 		width: 320px;
-		background-image: url("img/sudo.jpeg");
+		background-image: url("img/susenje.jpg");
 		background-size: 100%;
 	}
 	
 	.index-boxlink-square2 {
 		width: 320px;
-		background-image: url("img/frizider.jpeg");
+		background-image: url("img/Frizider.jpeg");
 		background-size: 100%;
 	}
 	.index-boxlink-square3 {
@@ -363,10 +451,15 @@ clear: left;
 		background-image: url("img/aspirator.png");
 		background-size: 100%;
 	}
+	.index-boxlink-square4 {
+		width: 320px;
+		background-image: url("img/sudo.jpg");
+		background-size: 100%;
+	}
 	
 	.index-boxlink-rectangle1 {
 		width: 490px;
-		background-image: url("img/ugradna.jpg");
+		background-image: url("img/friz.jpg");
 		background-size: 100%;
 	}
 	
@@ -384,6 +477,16 @@ clear: left;
 	.index-boxlink-rectangle4 {
 		width: 490px;
 		background-image: url("img/tv.jpg");
+		background-size: 100%;
+	}
+	.index-boxlink-rectangle5 {
+		width: 570px;
+		background-image: url("img/ugradna.jpg");
+		background-size: 100%;
+	}
+	.index-boxlink-rectangle6 {
+		width: 570px;
+		background-image: url("img/kombinovani.jpg");
 		background-size: 100%;
 	}
 }
@@ -450,6 +553,48 @@ footer ul li a{
 	width: 180px;
 }
 
+.akcija {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 14px;
+	color: white;
+	background-color: #fc3dad;
+	font-weight: 500;
+	text-transform: uppercase;
+	display: block;
+	padding-left:10px;
+	width: 53px;
+	margin-top:20px;
+	line-height:17px;
+}
+
+.poruci{
+	font-family: Catamaran;
+	font-size: 14px;
+	color: white;
+	background-color: #4287f5;
+	font-weight: 500;
+	display: block;
+	padding-left:3px;
+	width: 120px;
+	margin-top:-5px;
+	line-height:19px;
+}
+
+.preporuka {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 14px;
+	color: white;
+	background-color: #eb36ff;
+	font-weight: 500;
+	display: block;
+	padding-left:10px;
+	width: 70px;
+	margin-top:20px;
+	line-height:17px;
+}
+
 .naslov1 {
 	font-family: Catamaran;
 	font-size: 14px;
@@ -476,6 +621,7 @@ footer ul li a{
 	line-height:5px;
 	margin:auto;
 	border-bottom: 1px solid lightgray;
+	margin-bottom:30px;
 	
 }
 
@@ -531,23 +677,56 @@ footer ul li a{
 	padding-top:20px;
 	height: 250px;
 	width: 140px;
-	
 }
-
 .ime{
-	font-size: 5%;
-	
+	font-size: 80%;
+	font-weight: bold;
+}
+.model{
+	font-size: 110%;
 }
 
 .cena{
 	color: #1ED1C8;
-	font-size: 140%;
+	font-size: 200%;
 	font-weight: bold;
 }
 
 .brend {
 	font-weight: bold;
+	font-size: 130%;
 }
+
+.kapacitet {
+	font-size: 100%;
+}
+.obrtaji{
+	font-size: 110%;
+}
+.razred{
+	font-size: 110%;
+}
+.dubina{
+	font-size: 100%;
+}
+.boja{
+	font-size: 110%;
+}
+
+.kontakt{
+	margin-top:100px;
+	margin-bottom:200px;
+	font-family: Catamaran;
+	font-size: 26px;
+	color: black;
+	font-weight: 1000;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+}
+
+
 @media only screen and (min-width: 1000px) {
 
 .naslov1 {
@@ -569,7 +748,7 @@ footer ul li a{
 	height: auto;
 	width: 260px;
 	line-height:5px;
-	margin: 20px 20px 0px 10px;
+	margin: 20px 20px 20px 10px;
 	border-bottom: 1px solid lightgray;
 	
 }
@@ -604,7 +783,7 @@ footer ul li a{
 }
 
 	
-}
+
 
 .ime{
 	font-size: 100%;
