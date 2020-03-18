@@ -493,7 +493,7 @@ display: block;
 
 footer{
 	width: calc(100% - 80px);
-	padding: 40px 40px;
+	padding: 30px 30px;
 	background-color: #111;
 	margin-top: 20px;
 	overflow: hidden;
@@ -513,14 +513,14 @@ footer ul li a{
 	font-family: Catamaran;
 	font-size: 24px;
 	color: #fff;
-	line-height: 40px;
+	line-height: 30px;
 }
 .footer-links-cases{
 	display: none;
 }
 
 .footer-sm {
-	padding-top:50px;
+	padding-top:30px;
 	width: 60px;
 	float:right;
 }
@@ -572,7 +572,7 @@ footer ul li a{
 	font-family: Catamaran;
 	font-size: 14px;
 	color: white;
-	background-color: #0394fc;
+	background-color: #1ED1C8;
 	font-weight: 500;
 	display: block;
 	padding-left:3px;
