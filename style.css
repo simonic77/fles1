@@ -581,6 +581,19 @@ footer ul li a{
 	line-height:17px;
 }
 
+.poruci1{
+	font-family: Catamaran;
+	font-size: 20px;
+	color: white;
+	background-color: #1ED1C8;
+	font-weight: 500;
+	display: block;
+	padding-left:3px;
+	width: 200px;
+	margin-top:-5px;
+	line-height:30px;
+}
+
 .preporuka {
 	position:absolute;
 	font-family: Catamaran;
@@ -595,6 +608,35 @@ footer ul li a{
 	line-height:17px;
 }
 
+.preporuka1 {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 25px;
+	color: white;
+	background-color: #eb36ff;
+	font-weight: 500;
+	display: block;
+	padding-left:10px;
+	width: 120px;
+	margin-top:60px;
+	line-height:30px;
+	margin-left:30px;
+}
+
+.akcija1 {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 25px;
+	color: white;
+	background-color: #fc3dad;
+	font-weight: 500;
+	display: block;
+	padding-left:10px;
+	width: 75px;
+	margin-top:60px;
+	line-height:30px;
+	margin-left:30px;
+}
 .naslov1 {
 	font-family: Catamaran;
 	font-size: 14px;
@@ -621,7 +663,7 @@ footer ul li a{
 	line-height:5px;
 	margin:auto;
 	border-bottom: 1px solid lightgray;
-	margin-bottom:30px;
+	margin-bottom:35px;
 	
 }
 
@@ -635,6 +677,17 @@ footer ul li a{
 	padding-right:10px;
 	width:370px;
 	margin:auto;
+	
+}
+
+.proizvod{
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	font-family: Catamaran;
+	height: auto;
+	line-height:5px;
+	margin-bottom:35px;
 	
 }
 
@@ -666,6 +719,12 @@ footer ul li a{
 	margin-bottom: 20px;
 }
 
+.slika2 img {
+	position:left;
+	height:380px;
+	background-image: cover;
+}
+
 
 
 .tekst p{
@@ -677,6 +736,23 @@ footer ul li a{
 	padding-top:20px;
 	height: 250px;
 	width: 140px;
+}
+
+.podaci {
+	overflow: hidden;
+	position:relative;
+	float: left;
+	font-size: 20px;
+	font-family: Catamaran;
+	height: auto;
+	line-height:10px;
+	margin-bottom:35px;
+	margin-left:20px;
+	
+}
+
+.tekst2{
+	float:left;
 }
 .ime{
 	font-size: 80%;
@@ -763,6 +839,36 @@ footer ul li a{
 	
 }
 
+.preporuka1 {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 25px;
+	color: white;
+	background-color: #eb36ff;
+	font-weight: 500;
+	display: block;
+	padding-left:10px;
+	width: 120px;
+	margin-top:60px;
+	line-height:30px;
+	margin-left:30px;
+}
+
+.akcija1 {
+	position:absolute;
+	font-family: Catamaran;
+	font-size: 25px;
+	color: white;
+	background-color: #fc3dad;
+	font-weight: 500;
+	display: block;
+	padding-left:10px;
+	width: 75px;
+	margin-top:60px;
+	line-height:30px;
+	margin-left:50px;
+}
+
 .slika {
 	height: 270px;
 	width: 250px;
@@ -781,7 +887,12 @@ footer ul li a{
 	width: 140px;
 	
 }
-
+.slika2 img {
+	position:left;
+	height:600px;
+	background-image: cover;
+	margin-bottom: 20px;
+}
 	
 
 
