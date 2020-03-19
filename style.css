@@ -582,6 +582,7 @@ footer ul li a{
 }
 
 .poruci1{
+	
 	font-family: Catamaran;
 	font-size: 20px;
 	color: white;
@@ -638,6 +639,7 @@ footer ul li a{
 	margin-left:30px;
 }
 .naslov1 {
+	
 	font-family: Catamaran;
 	font-size: 14px;
 	color: white;
@@ -688,6 +690,7 @@ footer ul li a{
 	height: auto;
 	line-height:5px;
 	margin-bottom:35px;
+	width:350px;
 	
 }
 
@@ -713,7 +716,6 @@ footer ul li a{
 }
 
 .slika1 img {
-	
 	height:230px;
 	background-image: cover;
 	margin-bottom: 20px;
@@ -839,6 +841,10 @@ footer ul li a{
 	
 }
 
+.proizvod{
+	width:auto;
+}
+	
 .preporuka1 {
 	position:absolute;
 	font-family: Catamaran;
