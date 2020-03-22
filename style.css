@@ -489,6 +489,9 @@ display: block;
 		background-image: url("img/kombinovani.jpg");
 		background-size: 100%;
 	}
+	.index-boxlink-square5{
+		display:none;
+	}
 }
 
 footer{
