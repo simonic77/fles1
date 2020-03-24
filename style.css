@@ -334,8 +334,13 @@ overflow: hidden;
 	
 }
 .napomena {
-	overflow:hidden;
+	display:none;
+	
 }
+
+
+
+
 
 @media only screen and (min-width: 1000px) {
 	
@@ -495,12 +500,26 @@ display: block;
 	.index-boxlink-square5{
 		display:none;
 	}
+	
+.napomena{
+	display:block;
+	margin:0px;
+	line-height:10px;
+	font-size:13px;
+	font-family: Catamaran;
+	
 }
 
-.napomena{
-	margin:0px;
-	font-size:15px;
+.napomena1 {
+	display:none;
+	
 }
+	
+}
+
+
+
+
 
 footer{
 	width: calc(100% - 80px);
@@ -921,6 +940,8 @@ footer ul li a{
 	font-size: 100%;
 	font-weight: bold;
 }
+
+
 .model{
 	font-size: 130%;
 }
