@@ -338,6 +338,12 @@ overflow: hidden;
 	
 }
 
+.wrapper{
+		margin-left:5px;
+	}
+
+
+
 
 
 
@@ -395,6 +401,11 @@ display: block;
 	100% {
 		left:-400%;
 	}
+	
+	
+	
+	
+	
 	
 }
 	.wrapper{
@@ -522,7 +533,7 @@ display: block;
 
 
 footer{
-	width: calc(100% - 80px);
+	width: calc(100% - 65px);
 	padding: 30px 30px;
 	background-color: #111;
 	margin-top: 20px;
